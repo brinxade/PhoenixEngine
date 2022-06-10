@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="phoenix">
+      <UniqueIdentifier>{6097E4AB-CC76-6347-D58E-EE1D41EDC9A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phoenix\core">
+      <UniqueIdentifier>{D8E3D4D8-C446-647D-6DCC-9C33590E3000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phoenix\events">
+      <UniqueIdentifier>{644BBF66-5019-B36C-39AD-2393251A8FD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\phoenix.h" />
+    <ClInclude Include="src\phoenix\core\Application.h">
+      <Filter>phoenix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phoenix\core\EntryPoint.h">
+      <Filter>phoenix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phoenix\core\Layer.h">
+      <Filter>phoenix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phoenix\core\LayerStack.h">
+      <Filter>phoenix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\phoenix\core\Application.cpp">
+      <Filter>phoenix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phoenix\core\LayerStack.cpp">
+      <Filter>phoenix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phoenix\events\Event.cpp">
+      <Filter>phoenix\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phpch.cpp" />
+  </ItemGroup>
+</Project>
