@@ -1,3 +1,7 @@
-[submodule "Phoenix/src/vendor/glfw"]
-	path = Phoenix/src/vendor/glfw
+[submodule "Phoenix/vendor/glfw"]
+	path = Phoenix/vendor/glfw
 	url = https://github.com/glfw/glfw
+[submodule "Phoenix/vendor/spdloggg"]
+	path = Phoenix/vendor/spdloggg
+	url = https://github.com/gabime/spdlog
+	branch = v1.x
